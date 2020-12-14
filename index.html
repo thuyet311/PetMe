@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petme</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav id="home-section" class="navbar">
+      <div class="container">
+        <div class="notification-wrapper">
+          <div class="notification-widget">
+            <p class="at-element-marker">
+              <a class="at-element-first-click" href="#">GET IT BEFORE XMAS</a>
+              Check dates
+            </p>
+            <p class="at-element-second-marker">
+              <a class="at-element-secon-click" href="#">SAME DAY DELIVERY</a>
+              now available
+            </p>
+            <p class="at-element-third-market">
+              <a class="at-element-third-click" href="#">SAVE UP TO 20%</a>
+              with Repeat Delivery
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--HEADER-->
+    <nav class="header">
+      <div class="header-container">
+        <div class="header-contain">
+          <div class="branding-logo"><img src="./images/petme.png" /></div>
+          <div class="right">
+            <div class="header-button">
+              <button class="search-button">
+                Search everything for pets 🔍
+              </button>
+            </div>
+            <div class="toggle-button">
+              <ul>
+                <li><a href="#"><img src="./images/location.png" style=height:30px></li>
+                <li><a href="#"><img src="./images/profile.png" style=height:30px></li>
+                <li><a href="#"><img src="./images/cart.png" style=height:30px></li>
+                <li><a class="shopping-cart" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--NAV-CONTAINER-->
+    <div class="nav-container">
+      <div class="nav-container-wrapper">
+        <ul id="nav">
+          <li class="level0 nav-1 first level-top parent">
+            <a href="#home-section" class="level-top">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="level0 nav-2 level-top parent">
+            <a href="#About-us" class="level-top">
+              <span>About us</span>
+            </a>
+          </li>
+          <li class="level0 nav-3 level-top parent">
+            <a href="#" class="level-top">
+              <span>Pets &nabla;</span>
+            </a>
+          </li>
+          <li class="level0 nav-4 level-top parent">
+            <a href="#" class="level-top">
+              <span>Products &nabla;</span>
+            </a>
+          </li>
+          <li class="level0 nav-5 level-top parent">
+            <a href="#" class="level-top">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--FIRST-CONTAIN-->
+    <nav class="first-section-content">
+      <nav class="first-section-container">
+        <nav class="first-section-contain">
+          <nav class="fifty-split">
+            <div
+              class="banner-callout"
+              style="
+                font-size: 27px;
+                transform: rotate(-3deg);
+                color: white;
+                font-weight: 800;
+                padding: 3px 0px;
+                background: red;
+                border: 5px solid white;
+                max-width: 200px;
+                margin: 0;
+              "
+            >
+              FLASH OFFER
+            </div>
+          </nav>
+          <div
+            class="price-wrapper"
+            style="
+              font-weight: 800;
+              text-transform: uppercase;
+              padding-left: 0px;
+            "
+          >
+            <span
+              class="number"
+              style="
+                font-size: 152px;
+                display: inline-block;
+                line-height: 150px;
+              "
+              >50</span
+            ><span
+              class="percent"
+              style="
+                font-size: 93px;
+                display: inline-block;
+                line-height: 39px;
+                text-align: left;
+              "
+              >%<br /><small style="font-size: 45%">off</small></span
+            >
+          </div>
+          <nav class="fifty-split-promotion-detail">
+            <h2>Surprise your pets with irresistible treats</h2>
+          </nav>
+          <nav class="fifty-split-button">
+            <a href ="#"><button>SHOP NOW</button></a>
+          </nav>
+          <nav class="fifty-split-termcondition">
+            <h3>
+              <a class="tc-links" href="#">*T&C's</a> apply. Online Only. Ends
+              13/12/20
+            </h3>
+          </nav>
+        </nav>
+        <nav class="first-section-picture">
+          <div class="first-section-pictureimg">
+            <img src="./images/first-contain-picture.png" />
+          </div>
+        </nav>
+      </nav>
+    </nav>
+
+    <!--Product-carousel-->
+    <nav class="carousel2-container">
+      <div class="carousel2" data-flickity='{ "autoPlay": 2000 }'>
+        <div class="carousel-product">
+          <img src="./images/labrado.jpg" />
+          <div class="carousel-product-info">
+            <div class="carousel-product-promotion">save 40$</div>
+            <h3>Royal Canin Labrador Dog Food.</h3>
+            <button>SHOP ME</button>
+          </div>
+        </div>
+        <div class="carousel-product">
+          <img src="./images/superica-trio.jpg" />
+          <div class="carousel-product-info">
+            <div class="carousel-product-promotion">save 58$</div>
+            <h3>Simparica Trio 6 packs.</h3>
+
+            <button>SHOP ME</button>
+          </div>
+        </div>
+        <div class="carousel-product">
+          <img src="./images/nexgard.jpg" />
+          <div class="carousel-product-info">
+            <div class="carousel-product-promotion">up to 55$</div>
+            <h3>NexGard SPECTRA for dog</h3>
+
+            <button>SHOP ME</button>
+          </div>
+        </div>
+        <div class="carousel-product">
+          <img src="./images/dog-bedding.jpg" />
+          <div class="carousel-product-info">
+            <div class="carousel-product-promotion">up to 50%</div>
+
+            <h3>Dog Bedding</h3>
+
+            <button>SHOP ME</button>
+          </div>
+        </div>
+        <div class="carousel-product">
+          <img src="./images/cat-litter.jpg" />
+          <div class="carousel-product-info">
+            <div class="carousel-product-promotion">now only 22$</div>
+            <button>SHOP ME</button>
+            <h3>Breeders Choice 30L Cat litter</h3>
+          </div>
+        </div>
+        <div class="carousel-product">
+          <img src="./images/cat.jpg" />
+          <div class="carousel-product-info">
+            <div class="carousel-product-promotion">save 47$</div>
+            <button>SHOP ME</button>
+            <h3>Revolution Blue for Cats</h3>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!--SECTION22222-->
+    <nav class="second-section-content">
+      <div class="second-section-container">
+        <div class="half-img-content">
+          <img
+            src="https://www.petbarn.com.au/skin/frontend/enterprise/petbarn/images/dropdowns/dropdown_cat.gif"
+          />
+        </div>
+        <div class="half-text-content">
+          <img
+            src="https://www.petbarn.com.au/media/wysiwyg/Price-pledge/taste-guarantee.png"
+          />
+          <h2>Taste it, love it or we'll replace it... Guaranteed!</h2>
+          <p>
+            At Petme, we believe your dogg and cat will love their food so much
+            that if they don't... we will help you find a replacement. That's
+            our taste guarantee.
+          </p>
+          <div class="half-text-button"><button>FIND OUT MORE</button></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Pet looking section -->
+    <section class="pet-adopting">
+      <div>
+        <h3 class>
+          Pets are not just Christmas presents. They are your lifelong companions.
+        </h3>
+        <h1>Let's share our love!</h3>
+      </div>
+    </section>
+
+
+    <!-- Carousel -->
+    <div class="carousel" style="font-size: 0.1px;">.</div>
+    <div class="carousel1-container">
+    <div class="carousel" data-flickity='{ "autoPlay": 2000 }'>
+      <div class="carousel-cell">
+        <img
+          src="https://www.makethemroar.com/wp-content/uploads/2019/03/Impermeable-Sarah-Raincoat-Sarah-yellow-4.jpg"
+        />
+        <div class="pet-info">
+          <h3>Shimba</h3>
+          <ul>
+            <li>Age: 2 yrs</li>
+            <li>Likes: Chicken</li>
+          </ul>
+          <button>Adopt me</button>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://i.pinimg.com/originals/7b/47/bf/7b47bf9c9ec5fe764f58e045a2ff28ee.jpg"
+        />
+        <div class="pet-info">
+          <h3>Shimba</h3>
+          <ul>
+            <li>Age: 2 yrs</li>
+            <li>Likes: Sausages</li>
+          </ul>
+          <button>Adopt me</button>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://supawit423.files.wordpress.com/2017/06/hamster-health-center-2.jpg"
+        />
+        <div class="pet-info">
+          <h3>Lola</h3>
+          <ul>
+            <li>Age: 3 months</li>
+            <li>Likes: Seeds</li>
+          </ul>
+          <button>Adopt me</button>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://petopets.com/wp-content/uploads/2020/02/Hedgehog.jpg"
+        />
+        <div class="pet-info">
+          <h3>Han</h3>
+          <ul>
+            <li>Age: 2 yrs</li>
+            <li>Likes: Having a bath</li>
+          </ul>
+          <button>Adopt me</button>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.toiimg.com/thumb/msid-67586673,width-800,height-600,resizemode-75,imgsize-3918697,pt-32,y_pad-40/67586673.jpg"
+        />
+        <div class="pet-info">
+          <h3>Robo</h3>
+          <ul>
+            <li>Age: 1 yr</li>
+            <li>Likes: Milk</li>
+          </ul>
+          <button>Adopt me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!--  About us    -->
+<div class="section-4-aboutus">
+  <div><img src="./images/logo2.png" style="padding-top:40px;"></div>
+  <div class="about-us">
+      <section class="petme-info">
+          <h1>ABOUT US</h1>
+          <p>Pet me was found in 2020 by the 03 engineers having too much free time on there hands aside from doing homeworks from Coderschool.
+              <br>
+              Anyway, pets are cute so we figured that we may get bonus points from Charles for making a pet's site.
+              <br>
+              We guaranteed that 100% of our products on our website maybe real or not real (you decide, that's the fun part).
+              <br>
+              And we're out of ideas for this paragraph so enjoy this line of text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+      </section>
+      <section id="About-us" class="about-the-team">
+          <h2>MEET THE TEAM</h2>
+          <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="./images/Tia.jpg" alt="Tia" style="width:100%">
+                  <div class="card-container">
+                    <h2>Tia</h2>
+                    <p class="card-title">Dog Owner</p>
+                    <p style="margin-bottom: 6px">Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p style="margin-bottom: 6px">Tia@Petme.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="column">
+                <div class="card">
+                  <img src="./images/Rick.jpg" alt="Rick" style="width:100%">
+                  <div class="card-container">
+                    <h2>Rick</h2>
+                    <p class="card-title">The Chatter</p>
+                    <p style="margin-bottom: 6px">Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p style="margin-bottom: 6px">Rick@Petme.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="column">
+                <div class="card">
+                  <img src="./images/Tuan.jpg" alt="Tuan" style="width:100%">
+                  <div class="card-container">
+                    <h2>Tuan</h2>
+                    <p class="card-title">Doesn't take selfie</p>
+                    <p style="margin-bottom: 6px">Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p style="margin-bottom: 6px">Tuan@Petme.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+  </div>
+</div>
+        
+    <div class="section-5-footer">
+        <div class="footer">
+            <ul class="shopping-online">
+                <li><h3 class="footer-title">Shopping Online</h3></li>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Security Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Returns Policy</a></li>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Click & Collect</a></li>
+                <li><a href="#">Same Day Delivery</a></li>
+            </ul>
+            <ul class="our-partners">
+                <li><h3 class ="footer-title">Our Partners</h3></li>
+                <li><a href="#">City Farmers</a></li>
+                <li><a href="#">Greencross Vets</a></li>
+                <li><a href="#">Animal Emergeny Centres</a></li>
+                <li><a href="#">Veterinary Reerral Hospital</a></li>
+                <li><a href="#">Animal Referral Hospital</a></li>
+                <li><a href="#">Pet Cloud</a></li>
+                <li><a href="#">Pet Eternal</a></li>
+                <li><a href="#">About Zip</a></li>
+            </ul>
+            <ul class="footer-others">
+                <li><h3 class ="footer-title">General</h3></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Loyalty Program</a></li>
+                <li><a href="#">Petme Price Promise</a></li>
+                <li><a href="#">Taste Guarantee</a></li>
+                <li><a href="#">Site map</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="social-wrapper">
+                <ul>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" alt="Instagram Logo" class="instagram-icon"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" alt="Linkedin Logo" class="linkedin-icon"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+                  </li>
+                </ul>
+              </div>
+
+            <div class="footer-contact">
+                <ul class="footer-contact-content">
+                    <li><h3 class="footer-title" id="need-help">Need help?</h3></li>
+                    <div class="call">
+                    <div class="phone-icon">
+                        <img src="./images/phone.png">
+                    </div>
+                    <div class="phone-info">
+                        <p>Call us on</p>
+                        <span class="bold-info">1300 655 896</span>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="email">
+                    <div class="phone-icon">
+                    <img src="./images/email.png">
+                    </div>
+                    <div class="phone-info">
+                        <p>Email us at</p>
+                        <span class="bold-info">info@petme.com</span>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="contact-note">
+                        <p>
+                        Monday to Friday 8am - 7pm
+                        <br>
+                        Saturday & Sunday 9am - 5pm
+                        <br>
+                        (GMT + 7)
+                        </p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
